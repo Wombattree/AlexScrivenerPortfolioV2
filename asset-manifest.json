@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AlexScrivenerPortfolioV2/static/css/main.79a3de7e.css",
+    "main.js": "/AlexScrivenerPortfolioV2/static/js/main.27836dc8.js",
+    "index.html": "/AlexScrivenerPortfolioV2/index.html",
+    "main.79a3de7e.css.map": "/AlexScrivenerPortfolioV2/static/css/main.79a3de7e.css.map",
+    "main.27836dc8.js.map": "/AlexScrivenerPortfolioV2/static/js/main.27836dc8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79a3de7e.css",
+    "static/js/main.27836dc8.js"
+  ]
+}
