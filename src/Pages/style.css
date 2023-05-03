@@ -1,0 +1,48 @@
+.PageBody
+{
+    z-index: 6;
+
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+
+    color: var(--bodyTextColourLight);
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.GithubLink
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GithubIcon
+{
+    width: 10%;
+    color: var(--bodyTextColour);
+    opacity: 0.7;
+    
+    transition: 0.2s ease;
+}
+
+.GithubIcon:hover
+{
+    color: var(--bodyTextColourLight);
+    opacity: 1;
+}
+
+.PortfolioResumeColumn
+{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.Paragraph
+{
+    margin-bottom: 3%;
+}

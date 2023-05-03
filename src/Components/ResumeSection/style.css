@@ -1,0 +1,58 @@
+.ResumeSection
+{
+    margin-bottom: 1%;
+
+    cursor: pointer;
+    user-select: none;
+
+    background-color: var(--borderBackgroundColour);
+
+    padding: 0.5% 0% 0.5% 2%;
+
+    border: 1px solid var(--borderBackgroundColour);
+
+    transition: 0.4s ease;
+}
+
+.ResumeSection:hover
+{
+    border: 1px solid var(--bodyTextColour);
+}
+
+.ResumeSectionTitle
+{
+    display: flex;
+    align-items: center;
+    transition: 0.4s ease;
+}
+
+.ResumeSectionTitleExpanded
+{
+    padding-left: 8%;
+}
+
+.ResumeSectionTitle:hover
+{
+    padding-left: 8%;
+}
+
+.ResumeSectionText
+{
+    font-size: 30px;
+}
+
+.ResumeSectionIcon
+{
+    width: 4%;
+    padding-right: 2%;
+}
+
+.ResumeSectionContents
+{
+    display: none;
+}
+
+.ResumeSectionContentsShow
+{
+    display: inline;
+}

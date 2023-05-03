@@ -1,0 +1,31 @@
+a
+{
+    color: var(--bodyTextColourLight);
+}
+
+.ResumeDownloadButton
+{
+    margin-top: 5%;
+    margin-bottom: 1%;
+
+    cursor: pointer;
+    user-select: none;
+
+    background-color: var(--borderBackgroundColour);
+
+    padding: 1% 0% 1% 2%;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 25px;
+
+    border: 1px solid var(--borderBackgroundColour);
+
+    transition: 0.4s ease;
+}
+
+.ResumeDownloadButton:hover
+{
+    border: 1px solid var(--bodyTextColour);
+}

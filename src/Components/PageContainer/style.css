@@ -1,0 +1,26 @@
+.PageContainer
+{
+    z-index: 1;
+
+    position: absolute;
+    width: 50%;
+    min-height: 100%;
+    left: 25%;
+
+    background-color: var(--borderBackgroundColour);
+
+    display: flex;
+
+    box-shadow: var(--shadow);
+}
+
+.PageContainerInner
+{
+    z-index: 3;
+
+    width: 95%;
+    margin-left: 2.5%;
+    background-color: var(--bodyBackgroundColour);
+
+    box-shadow: var(--shadow);
+}

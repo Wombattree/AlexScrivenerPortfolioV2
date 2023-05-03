@@ -1,0 +1,103 @@
+a:link { text-decoration: none; }
+
+.PortfolioExample
+{
+    margin-bottom: 0.5%;
+
+    width: 100%;
+    height: 12%;
+
+    opacity: 0.75;
+
+    user-select: none;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.PortfolioExampleBlackout
+{
+    width: 100%;
+    height: 100%;
+
+    opacity: 0;
+    background-color: var(--backgroundColour);
+    border: 1px solid var(--backgroundColour);
+    
+    transition: 0.4s ease;
+}
+
+.PortfolioExampleBlackout:hover
+{
+    opacity: 0.95;
+
+    border: 1px solid var(--bodyTextColour);
+}
+
+.PortfolioExampleText
+{
+    color: var(--bodyTextLight);
+    transition: 0.2s ease;
+}
+
+.PortfolioExampleTitle
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.PortfolioExampleDescription
+{
+    font-size: 15px;
+}
+
+.Row 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.Column
+{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.MainColumn
+{
+    flex: 4;
+}
+
+.GithubIconColumn
+{
+    flex: 1;
+    align-items: end;
+}
+
+.GithubIconLinkPortfolio
+{
+    align-items: end;
+}
+
+.GithubIconPortfolio
+{
+    width: 50%;
+}
+
+.PortfolioExampleTextContainer
+{
+    opacity: 0;
+    padding: 2%;
+    user-select: none;
+
+    transition: 0.2s ease;
+}
+
+.PortfolioExampleTextContainerHovered
+{
+    opacity: 1;
+}

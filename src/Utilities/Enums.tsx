@@ -1,0 +1,1 @@
+export const enum PageName { AboutMe, Portfolio, Resume };
